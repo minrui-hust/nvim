@@ -17,7 +17,6 @@
     \ 'coc-yaml',
     \ 'coc-python',
     \ 'coc-clangd',
-    \ 'coc-pyright',
     \ 'coc-explorer',
     \ 'coc-svg',
     \ 'coc-prettier',
@@ -27,6 +26,7 @@
     \ 'coc-json',
     \ 'coc-marketplace',
     \ ]
+    " \ 'coc-pyright',
     " \ 'coc-tabnine',
     " \ 'coc-highlight',
 
