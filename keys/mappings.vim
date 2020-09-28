@@ -76,6 +76,10 @@ else
   nnoremap <silent> <M-h>    :vertical resize -2<CR>
   nnoremap <silent> <M-l>    :vertical resize +2<CR>
 
+  " shift + y, shift + p operate on system clipboard
+  nnoremap Y "+y
+  nnoremap P "+p
+
 endif
 
 " Better nav for omnicomplete

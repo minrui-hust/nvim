@@ -46,6 +46,7 @@
   // "python.condaPath": "~/.miniconda/bin/conda",
   // "python.sortImports.path": "~/.miniconda/envs/neovim/bin/isort",
   // "python.jediPath": "~/.miniconda/envs/neovim/lib/python3.8/site-packages",
+  "python.jediEnabled": false,
 
   // snippets
   "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/snips"],
@@ -68,7 +69,10 @@
   },
 
   //coc-emoji
-  "coc.source.emoji.filetypes": ["markdown"]
+  "coc.source.emoji.filetypes": [
+    "markdown"
+  ],
+  "clangd.path": "/home/local/.config/coc/extensions/coc-clangd-data/install/10.0.0/clangd_10.0.0/bin/clangd"
 
   // TODO b:coc_suggest_disable=1 GOYO
   // TODO add to paths.vim g:coc_node_path

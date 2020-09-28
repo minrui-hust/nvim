@@ -9,6 +9,7 @@
 if !exists('g:vscode')
   source $HOME/.config/nvim/plug-config/polyglot.vim
 endif
+
 source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/general/functions.vim
@@ -21,10 +22,10 @@ if exists('g:vscode')
   source $HOME/.config/nvim/plug-config/easymotion.vim
   source $HOME/.config/nvim/plug-config/highlightyank.vim
 else
-
   " Themes
   source $HOME/.config/nvim/themes/syntax.vim
-  source $HOME/.config/nvim/themes/nvcode.vim
+  "source $HOME/.config/nvim/themes/nvcode.vim
+  source $HOME/.config/nvim/themes/onedark.vim
   source $HOME/.config/nvim/themes/airline.vim
 
   " Plugin Configuration
@@ -54,9 +55,10 @@ else
   source $HOME/.config/nvim/plug-config/asynctask.vim
   source $HOME/.config/nvim/plug-config/window-swap.vim
   source $HOME/.config/nvim/plug-config/markdown-preview.vim
-  luafile $HOME/.config/nvim/lua/plug-colorizer.lua
+  " source $HOME/.config/nvim/plug-config/vim-lsp-cxx-highlight.vim
   " source $HOME/.config/nvim/plug-config/vimspector.vim " Uncomment if you want to use Vimspector
   " source $HOME/.config/nvim/plug-config/ale.vim
+  luafile $HOME/.config/nvim/lua/plug-colorizer.lua
 endif
 
 " Add paths to node and python here

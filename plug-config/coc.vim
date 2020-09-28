@@ -16,6 +16,7 @@
     \ 'coc-cssmodules',
     \ 'coc-yaml',
     \ 'coc-python',
+    \ 'coc-clangd',
     \ 'coc-pyright',
     \ 'coc-explorer',
     \ 'coc-svg',
