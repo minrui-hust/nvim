@@ -27,8 +27,8 @@ let g:startify_session_persistence = 1
 let g:webdevicons_enable_startify = 1
 
 function! StartifyEntryFormat()
-        return 'WebDevIconsGetFileTypeSymbol(absolute_path) ." ". entry_path'
-    endfunction
+  return 'WebDevIconsGetFileTypeSymbol(absolute_path) ." ". entry_path'
+endfunction
 
 let g:startify_bookmarks = [
             \ { 'c': '~/.config/i3/config' },
