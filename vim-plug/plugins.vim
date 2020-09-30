@@ -16,9 +16,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'psliwka/vim-smoothie'
     Plug 'mhinz/vim-startify'
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
+    Plug 'airblade/vim-gitgutter'
+    Plug 'tpope/vim-fugitive'
     Plug 'norcalli/nvim-colorizer.lua'
-    Plug 'vim-airline/vim-airline-themes'
     Plug 'ryanoasis/vim-devicons'
+    Plug 'vim-airline/vim-airline-themes'
     Plug 'joshdick/onedark.vim'
     Plug 'tomasr/molokai'
     Plug 'sainnhe/sonokai'

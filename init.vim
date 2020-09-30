@@ -20,6 +20,7 @@ source $HOME/.config/nvim/plug-config/xtabline.vim
 source $HOME/.config/nvim/plug-config/start-screen.vim
 source $HOME/.config/nvim/plug-config/rnvimr.vim
 source $HOME/.config/nvim/plug-config/fzf.vim
+source $HOME/.config/nvim/plug-config/gitgutter.vim
 source $HOME/.config/nvim/plug-config/markdown-preview.vim
 luafile $HOME/.config/nvim/plug-config/nvim-colorizer.lua
 

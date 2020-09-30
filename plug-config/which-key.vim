@@ -8,7 +8,6 @@ vnoremap <silent> <leader> :silent <c-u> :silent WhichKeyVisual '<Space>'<CR>
 let g:which_key_map =  {}
 " Define a separator
 let g:which_key_sep = '→'
-" set timeoutlen=100
 
 " Coc Search & refactor
 nnoremap <leader>? :CocSearch <C-R>=expand("<cword>")<CR><CR>
