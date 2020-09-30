@@ -1,9 +1,6 @@
 
-" Set vim theme
-colorscheme onedark
-
 " Set airline theme
-let g:airline_theme = 'base16_classic'
+let g:airline_theme = 'gruvbox'
 let g:airline_powerline_fonts = 1
 
 " Set tabline theme
@@ -30,6 +27,16 @@ let g:xtabline_settings.icons = {
       \'lens': '🔍',
       \'flag': '🏁',
       \}
+
+" Set gruvbox theme
+let g:gruvbox_contrast_dark = 'hard'
+let g:gruvbox_italic = 1
+let g:gruvbox_italicize_comments = 1
+let g:gruvbox_italicize_strings = 1
+let g:gruvbox_invert_selection = 0
+
+" Set vim theme
+colorscheme gruvbox
 
 " Terminal use gui color scheme
 if(has('termguicolors'))
