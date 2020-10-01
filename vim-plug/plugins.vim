@@ -20,6 +20,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-fugitive'
     Plug 'norcalli/nvim-colorizer.lua'
     Plug 'ryanoasis/vim-devicons'
+    Plug 'vim-scripts/DrawIt'
     Plug 'vim-airline/vim-airline-themes'
     Plug 'joshdick/onedark.vim'
     Plug 'tomasr/molokai'

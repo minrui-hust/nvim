@@ -38,8 +38,4 @@ let g:gruvbox_invert_selection = 0
 " Set vim theme
 colorscheme gruvbox
 
-" Terminal use gui color scheme
-if(has('termguicolors'))
-  set termguicolors
-  hi LineNr ctermbg=NONE guibg=NONE
-endif
+
