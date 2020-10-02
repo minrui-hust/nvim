@@ -36,12 +36,5 @@ set updatetime=100                      " Faster completion
 set timeoutlen=1000                     " By default timeoutlen is 1000 ms
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set incsearch
-set guifont=Fira\ Code\ Nerd\ Font
-
-if has('nvim')
-  set jumpoptions=stack                   " Stack like but list like jump history
-endif
-
-if has('termguicolors')
-  set termguicolors
-endif
+set jumpoptions=stack                   " Stack like but list like jump history
+set termguicolors

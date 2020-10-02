@@ -43,7 +43,7 @@
   // "python.formatting.provider": "black",
   // "python.formatting.blackPath": "~/.local/bin/black",
   // "python.linting.pylintPath": "~/.miniconda/envs/neovim/bin/pylint",
-  // "python.condaPath": "~/.miniconda/bin/conda",
+  "python.condaPath": "~/miniconda3/bin/conda",
   // "python.sortImports.path": "~/.miniconda/envs/neovim/bin/isort",
   // "python.jediPath": "~/.miniconda/envs/neovim/lib/python3.8/site-packages",
   "python.jediEnabled": false,

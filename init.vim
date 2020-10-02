@@ -5,7 +5,7 @@
 "/___/_/ /_/_/\__(_)___/_/_/ /_/ /_/
 
 " Plugin manager
-source $HOME/.config/nvim/vim-plug/plugins.vim
+source $HOME/.config/nvim/plug-config/plugins.vim
 
 " Global settings
 source $HOME/.config/nvim/general/settings.vim
@@ -22,8 +22,6 @@ source $HOME/.config/nvim/plug-config/rnvimr.vim
 source $HOME/.config/nvim/plug-config/fzf.vim
 source $HOME/.config/nvim/plug-config/gitgutter.vim
 source $HOME/.config/nvim/plug-config/markdown-preview.vim
-
-if has('lua')
-  luafile $HOME/.config/nvim/plug-config/nvim-colorizer.lua
-end
+source $HOME/.config/nvim/plug-config/vimspector.vim
+source $HOME/.config/nvim/plug-config/nvim-colorizer.vim
 

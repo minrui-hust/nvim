@@ -38,4 +38,6 @@ let g:gruvbox_invert_selection = 0
 " Set vim theme
 colorscheme gruvbox
 
+" Set Font
+set guifont=Fira\ Code\ Nerd\ Font
 
