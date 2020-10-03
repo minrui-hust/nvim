@@ -6,7 +6,7 @@
 
 
 " Plugin manager put plugins between plug#begin and plug#end
-source $HOME/.config/nvim/plug-config/vim-plug.vim
+source $HOME/.config/nvim/config/plug/vim-plug.vim
 call plug#begin('~/.config/nvim/autoload/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-airline/vim-airline'
@@ -23,6 +23,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'norcalli/nvim-colorizer.lua'
 Plug 'ryanoasis/vim-devicons'
 Plug 'vim-scripts/DrawIt'
+Plug 'haya14busa/vim-asterisk'
 Plug 'puremourning/vimspector'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'joshdick/onedark.vim'
@@ -33,21 +34,22 @@ call plug#end()
 
 
 " Global settings
-source $HOME/.config/nvim/general/settings.vim
-source $HOME/.config/nvim/general/mappings.vim
-source $HOME/.config/nvim/general/functions.vim
-source $HOME/.config/nvim/general/themes.vim
+source $HOME/.config/nvim/config/global/settings.vim
+source $HOME/.config/nvim/config/global/mappings.vim
+source $HOME/.config/nvim/config/global/functions.vim
+source $HOME/.config/nvim/config/global/themes.vim
 
 
 " Plugin specific settings
-source $HOME/.config/nvim/plug-config/coc.vim
-source $HOME/.config/nvim/plug-config/which-key.vim
-source $HOME/.config/nvim/plug-config/xtabline.vim
-source $HOME/.config/nvim/plug-config/start-screen.vim
-source $HOME/.config/nvim/plug-config/floaterm.vim
-source $HOME/.config/nvim/plug-config/fzf.vim
-source $HOME/.config/nvim/plug-config/gitgutter.vim
-source $HOME/.config/nvim/plug-config/markdown-preview.vim
-source $HOME/.config/nvim/plug-config/vimspector.vim
-source $HOME/.config/nvim/plug-config/nvim-colorizer.vim
+source $HOME/.config/nvim/config/plug/coc.vim
+source $HOME/.config/nvim/config/plug/which-key.vim
+source $HOME/.config/nvim/config/plug/xtabline.vim
+source $HOME/.config/nvim/config/plug/start-screen.vim
+source $HOME/.config/nvim/config/plug/floaterm.vim
+source $HOME/.config/nvim/config/plug/fzf.vim
+source $HOME/.config/nvim/config/plug/gitgutter.vim
+source $HOME/.config/nvim/config/plug/markdown-preview.vim
+source $HOME/.config/nvim/config/plug/vimspector.vim
+source $HOME/.config/nvim/config/plug/vim-asterisk.vim
+source $HOME/.config/nvim/config/plug/nvim-colorizer.vim
 
