@@ -70,7 +70,7 @@
 
   //coc-emoji
   "coc.source.emoji.filetypes": ["markdown"],
-  "clangd.path": "/home/local/.config/coc/extensions/coc-clangd-data/install/10.0.0/clangd_10.0.0/bin/clangd"
+  "clangd.path": "/home/mr/.config/coc/extensions/coc-clangd-data/install/10.0.0/clangd_10.0.0/bin/clangd"
 
   // TODO b:coc_suggest_disable=1 GOYO
   // TODO add to paths.vim g:coc_node_path

@@ -229,18 +229,18 @@ let g:which_key_map.l = {
 " t is for terminal
 let g:which_key_map.t = {
       \ 'name' : '+terminal' ,
-      \ ';' : [':FloatermNew --wintype=normal --height=6'        , 'terminal'],
-      \ 'f' : [':FloatermNew fzf'                               , 'fzf'],
-      \ 'g' : [':FloatermNew lazygit'                           , 'git'],
-      \ 'd' : [':FloatermNew lazydocker'                        , 'docker'],
-      \ 'n' : [':FloatermNew node'                              , 'node'],
-      \ 'N' : [':FloatermNew nnn'                               , 'nnn'],
-      \ 'p' : [':FloatermNew python'                            , 'python'],
-      \ 'm' : [':FloatermNew lazynpm'                           , 'npm'],
-      \ 'r' : [':FloatermNew ranger'                            , 'ranger'],
-      \ 't' : [':FloatermToggle'                                , 'toggle'],
-      \ 'y' : [':FloatermNew ytop'                              , 'ytop'],
-      \ 's' : [':FloatermNew ncdu'                              , 'ncdu'],
+      \ ';' : [':FloatermNew --wintype=normal --height=6'          , 'terminal'],
+      \ 'f' : [':FloatermNew fzf'                                  , 'fzf'],
+      \ 'g' : [':FloatermNew lazygit'                              , 'git'],
+      \ 'd' : [':FloatermNew lazydocker'                           , 'docker'],
+      \ 'n' : [':FloatermNew node'                                 , 'node'],
+      \ 'N' : [':FloatermNew nnn'                                  , 'nnn'],
+      \ 'p' : [':FloatermNew python'                               , 'python'],
+      \ 'm' : [':FloatermNew lazynpm'                              , 'npm'],
+      \ 'r' : [':FloatermNew ranger --cmd="set draw_borders both"' , 'ranger'],
+      \ 't' : [':FloatermToggle'                                   , 'toggle'],
+      \ 'y' : [':FloatermNew ytop'                                 , 'ytop'],
+      \ 's' : [':FloatermNew ncdu'                                 , 'ncdu'],
       \ }
 
 " T is for terminal
