@@ -25,6 +25,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'vim-scripts/DrawIt'
 Plug 'haya14busa/vim-asterisk'
 Plug 'unblevable/quick-scope'
+Plug 'justinmk/vim-sneak'
 Plug 'puremourning/vimspector'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'joshdick/onedark.vim'
@@ -53,5 +54,6 @@ source $HOME/.config/nvim/config/plug/markdown-preview.vim
 source $HOME/.config/nvim/config/plug/vimspector.vim
 source $HOME/.config/nvim/config/plug/vim-asterisk.vim
 source $HOME/.config/nvim/config/plug/quickscope.vim
+source $HOME/.config/nvim/config/plug/sneak.vim
 source $HOME/.config/nvim/config/plug/nvim-colorizer.vim
 
