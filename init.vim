@@ -35,10 +35,10 @@ call plug#end()
 
 
 " Global settings
-source $HOME/.config/nvim/config/global/settings.vim
-source $HOME/.config/nvim/config/global/mappings.vim
-source $HOME/.config/nvim/config/global/functions.vim
-source $HOME/.config/nvim/config/global/themes.vim
+source $HOME/.config/nvim/config/common/settings.vim
+source $HOME/.config/nvim/config/common/mappings.vim
+source $HOME/.config/nvim/config/common/functions.vim
+source $HOME/.config/nvim/config/common/themes.vim
 
 
 " Plugin specific settings
