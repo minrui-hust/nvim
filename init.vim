@@ -7,8 +7,10 @@
 " Set the directory where init.vim lies in
 let $INITHOME=fnamemodify(expand('<sfile>'), ':h')
 
-" Plugin manager put plugins between plug#begin and plug#end
+" Plugin manager
 source $INITHOME/config/plug/vim-plug.vim
+
+" Put vim plugins between plug#begin and plug#end
 call plug#begin($INITHOME.'/autoload/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-airline/vim-airline'
@@ -24,7 +26,6 @@ Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 Plug 'norcalli/nvim-colorizer.lua'
 Plug 'ryanoasis/vim-devicons'
-Plug 'vim-scripts/DrawIt'
 Plug 'haya14busa/vim-asterisk'
 Plug 'easymotion/vim-easymotion'
 Plug 'puremourning/vimspector'
@@ -34,6 +35,14 @@ Plug 'tomasr/molokai'
 Plug 'sainnhe/sonokai'
 Plug 'morhetz/gruvbox'
 call plug#end()
+
+" Put coc plugins here
+let g:coc_global_extensions = [
+  \ 'coc-snippets', 'coc-sh', 'coc-lists', 'coc-emmet', 'coc-tasks',
+  \ 'coc-floaterm', 'coc-emoji', 'coc-yaml', 'coc-python', 'coc-clangd',
+  \ 'coc-explorer', 'coc-svg', 'coc-prettier', 'coc-vimlsp', 'coc-xml',
+  \ 'coc-yank', 'coc-json', 'coc-marketplace', 'coc-pairs',
+  \ ]
 
 
 " Global settings

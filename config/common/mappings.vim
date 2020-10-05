@@ -1,8 +1,7 @@
 " Basic Key Mappings
 
-" g Leader key
-let mapleader=" "
-nnoremap <Space> <Nop>
+" global Leader
+let mapleader=' '
 
 " TAB in general mode will move to text buffer
 nnoremap <silent> <TAB> :bnext<CR>
