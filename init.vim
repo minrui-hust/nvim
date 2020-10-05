@@ -4,10 +4,12 @@
 " _/ // / / / / /__| |/ / / / / / / /
 "/___/_/ /_/_/\__(_)___/_/_/ /_/ /_/
 
+" Set the directory where init.vim lies in
+let $INITHOME=fnamemodify(expand('<sfile>'), ':h')
 
 " Plugin manager put plugins between plug#begin and plug#end
-source $HOME/.config/nvim/config/plug/vim-plug.vim
-call plug#begin('~/.config/nvim/autoload/plugged')
+source $INITHOME/config/plug/vim-plug.vim
+call plug#begin($INITHOME.'/autoload/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-airline/vim-airline'
 Plug 'mg979/vim-xtabline'
@@ -35,23 +37,23 @@ call plug#end()
 
 
 " Global settings
-source $HOME/.config/nvim/config/common/settings.vim
-source $HOME/.config/nvim/config/common/mappings.vim
-source $HOME/.config/nvim/config/common/functions.vim
-source $HOME/.config/nvim/config/common/themes.vim
+source $INITHOME/config/common/settings.vim
+source $INITHOME/config/common/mappings.vim
+source $INITHOME/config/common/functions.vim
+source $INITHOME/config/common/themes.vim
 
 
 " Plugin specific settings
-source $HOME/.config/nvim/config/plug/coc.vim
-source $HOME/.config/nvim/config/plug/which-key.vim
-source $HOME/.config/nvim/config/plug/xtabline.vim
-source $HOME/.config/nvim/config/plug/start-screen.vim
-source $HOME/.config/nvim/config/plug/floaterm.vim
-source $HOME/.config/nvim/config/plug/fzf.vim
-source $HOME/.config/nvim/config/plug/gitgutter.vim
-source $HOME/.config/nvim/config/plug/markdown-preview.vim
-source $HOME/.config/nvim/config/plug/vimspector.vim
-source $HOME/.config/nvim/config/plug/vim-asterisk.vim
-source $HOME/.config/nvim/config/plug/easymotion.vim
-source $HOME/.config/nvim/config/plug/nvim-colorizer.vim
+source $INITHOME/config/plug/coc.vim
+source $INITHOME/config/plug/which-key.vim
+source $INITHOME/config/plug/xtabline.vim
+source $INITHOME/config/plug/start-screen.vim
+source $INITHOME/config/plug/floaterm.vim
+source $INITHOME/config/plug/fzf.vim
+source $INITHOME/config/plug/gitgutter.vim
+source $INITHOME/config/plug/markdown-preview.vim
+source $INITHOME/config/plug/vimspector.vim
+source $INITHOME/config/plug/vim-asterisk.vim
+source $INITHOME/config/plug/easymotion.vim
+source $INITHOME/config/plug/nvim-colorizer.vim
 
