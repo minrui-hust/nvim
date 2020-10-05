@@ -233,18 +233,3 @@ nnoremap <silent> <Space> :silent <c-u> :silent WhichKey '<Space>'<CR>
 vnoremap <silent> <Space> :silent <c-u> :silent WhichKeyVisual '<Space>'<CR>
 
 
-" Map leader 'g'
-let g:which_key_map_g = {}
-
-" Single mappings
-let g:which_key_map_g['g'] = ['<C-HOME>', 'goto first line'] "Remap gg, since g is used as leader
-let g:which_key_map_g['d'] = ['<Plug>(coc-definition)', 'goto definition']
-let g:which_key_map_g['y'] = ['<Plug>(coc-type-definition)', 'goto type definition']
-let g:which_key_map_g['i'] = ['<Plug>(coc-implementation)', 'goto implementation']
-let g:which_key_map_g['r'] = ['<Plug>(coc-references)', 'goto references']
- 
-" Register which key map 'g'
-call which_key#register('g', "g:which_key_map_g")
-nnoremap <silent> g :silent <c-u> :silent WhichKey 'g'<CR>
-vnoremap <silent> g :silent <c-u> :silent WhichKeyVisual 'g'<CR>
-
