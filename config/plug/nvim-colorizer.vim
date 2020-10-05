@@ -1,2 +1,2 @@
 
-luafile $HOME/.config/nvim/config/plug/nvim-colorizer.lua
+luafile $INITHOME/config/plug/nvim-colorizer.lua
