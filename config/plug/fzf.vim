@@ -9,7 +9,7 @@ let g:fzf_action = {
   \ 'ctrl-v': 'vsplit' }
 
 " Define fzf window style
-let g:fzf_layout = {'window': { 'width': 0.8, 'height': 0.8}}
+let g:fzf_layout = {'window':{ 'width': 0.9, 'height': 0.8, 'xoffset':0.75}}
 
 " Define fzf window color
 let g:fzf_colors =
@@ -37,13 +37,13 @@ let g:fzf_history_dir = '~/.local/share/fzf-history'
 
 " ==== Options from fzf.vim ====
 " Always enable preview window on the right with 60% width
-let g:fzf_preview_window = 'right:60%'
+let g:fzf_preview_window = 'right:55%'
 
 " [Buffers] Jump to the existing window if possible
 let g:fzf_buffers_jump = 1
 
-" [[B]Commits] Customize the options used by git log'':
-let g:fzf_commits_log_options = '--graph --color=always --format="%C(auto)%h%d %s %C(black)%C(bold%cr)"'
+" [[B]Commits] Customize the options used by git log
+" let g:fzf_commits_log_options = '--graph --color=always --format="%C(auto)%h%d %s %C(black)%C(bold%cr)"'
 
 " [Tags] Command to gernerate tags file
 let g:fzf_tags_command = 'ctags -R'
@@ -53,7 +53,8 @@ let g:fzf_commands_expect = 'alt-enter,ctrl-x'
 " ==============================
 
 " ======== User mapping ========
-map <C-P> :Files<CR>
+nnoremap <C-P> :Files<CR>
+nnoremap <C-F> :BLines<CR>
 " map <leader>b :Buffers<CR>
 " nnoremap <leader>g :Rg<CR>
 " nnoremap <leader>t :Tags<CR>

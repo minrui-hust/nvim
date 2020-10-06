@@ -56,6 +56,7 @@ source $INITHOME/config/common/themes.vim
 source $INITHOME/config/plug/coc.vim
 source $INITHOME/config/plug/which-key.vim
 source $INITHOME/config/plug/xtabline.vim
+source $INITHOME/config/plug/smoothie.vim
 source $INITHOME/config/plug/start-screen.vim
 source $INITHOME/config/plug/floaterm.vim
 source $INITHOME/config/plug/fzf.vim
