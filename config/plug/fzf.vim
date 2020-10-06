@@ -1,6 +1,6 @@
 " ====== Options from fzf ======
 let $FZF_DEFAULT_OPTS = '--layout=reverse --inline-info'
-let $FZF_DEFAULT_COMMAND="rg --files --hidden --glob '!.git/**'"
+"let $FZF_DEFAULT_COMMAND="rg --files --hidden --glob '!.git/**'"
 
 " Define the action on the selected item
 let g:fzf_action = {
