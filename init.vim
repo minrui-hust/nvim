@@ -41,7 +41,7 @@ let g:coc_global_extensions = [
   \ 'coc-snippets', 'coc-sh', 'coc-lists', 'coc-emmet', 'coc-tasks',
   \ 'coc-floaterm', 'coc-emoji', 'coc-yaml', 'coc-python', 'coc-clangd',
   \ 'coc-explorer', 'coc-svg', 'coc-prettier', 'coc-vimlsp', 'coc-xml',
-  \ 'coc-yank', 'coc-json', 'coc-marketplace', 'coc-pairs',
+  \ 'coc-yank', 'coc-json', 'coc-marketplace',
   \ ]
 
 
