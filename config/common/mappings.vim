@@ -55,3 +55,9 @@ nnoremap <silent> <M-l>    :vertical resize +2<CR>
 nnoremap Y "+y
 nnoremap P "+p
 
+" This is reduandent to what is in which-key.
+" However, without this, the popup menu of which-key 
+"   would popup immediately without delay.
+" Which-key may need at least one raw mapping defined other where?
+nnoremap <leader>. :<C-U>e $MYVIMRC<CR>
+
