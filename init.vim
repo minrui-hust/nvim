@@ -25,6 +25,7 @@ Plug 'mhinz/vim-startify'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
+Plug 'luochen1990/rainbow'
 Plug 'norcalli/nvim-colorizer.lua'
 Plug 'ryanoasis/vim-devicons'
 Plug 'haya14busa/vim-asterisk'
@@ -64,6 +65,7 @@ source $INITHOME/config/plug/floaterm.vim
 source $INITHOME/config/plug/fzf.vim
 source $INITHOME/config/plug/rnvimr.vim
 source $INITHOME/config/plug/gitgutter.vim
+source $INITHOME/config/plug/rainbow.vim
 source $INITHOME/config/plug/markdown-preview.vim
 source $INITHOME/config/plug/vimspector.vim
 source $INITHOME/config/plug/vim-asterisk.vim
