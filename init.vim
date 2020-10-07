@@ -18,6 +18,7 @@ Plug 'mg979/vim-xtabline'
 Plug 'voldikss/vim-floaterm'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'kevinhwang91/rnvimr'
 Plug 'liuchengxu/vim-which-key'
 Plug 'psliwka/vim-smoothie'
 Plug 'mhinz/vim-startify'
@@ -29,6 +30,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'haya14busa/vim-asterisk'
 Plug 'easymotion/vim-easymotion'
 Plug 'puremourning/vimspector'
+Plug 'junegunn/limelight.vim'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'joshdick/onedark.vim'
 Plug 'tomasr/molokai'
@@ -60,6 +62,7 @@ source $INITHOME/config/plug/smoothie.vim
 source $INITHOME/config/plug/start-screen.vim
 source $INITHOME/config/plug/floaterm.vim
 source $INITHOME/config/plug/fzf.vim
+source $INITHOME/config/plug/rnvimr.vim
 source $INITHOME/config/plug/gitgutter.vim
 source $INITHOME/config/plug/markdown-preview.vim
 source $INITHOME/config/plug/vimspector.vim

@@ -4,7 +4,7 @@ let g:which_key_map_space =  {}
 
 " Single mappings
 let g:which_key_map_space['.'] = [':e $MYVIMRC', 'open init']
-let g:which_key_map_space['r'] = [':FloatermNew ranger --cmd="set draw_borders both"', 'ranger']
+let g:which_key_map_space['r'] = [':RnvimrToggle', 'ranger']
 let g:which_key_map_space['e'] = [':CocCommand explorer', 'explorer']
 let g:which_key_map_space['q'] = [':q', 'quit']
 let g:which_key_map_space['o'] = [':only', 'only']
