@@ -26,8 +26,8 @@ nmap <silent> gy  <Plug>(coc-type-definition)
 nmap <silent> gi  <Plug>(coc-implementation)
 nmap <silent> gr  <Plug>(coc-references)
 
-" Use P to show documentation in preview window.
-nnoremap <silent> P :call <SID>show_documentation()<CR>
+" Use D to show documentation in preview window.
+nnoremap <silent> D :call <SID>show_documentation()<CR>
 
 function! s:show_documentation()
   if (index(['vim','help'], &filetype) >= 0)
