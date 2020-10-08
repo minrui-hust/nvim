@@ -34,9 +34,6 @@ Plug 'easymotion/vim-easymotion'
 Plug 'puremourning/vimspector'
 Plug 'junegunn/limelight.vim'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'joshdick/onedark.vim'
-Plug 'tomasr/molokai'
-Plug 'sainnhe/sonokai'
 Plug 'morhetz/gruvbox'
 call plug#end()
 
