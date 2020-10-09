@@ -22,8 +22,7 @@ endif
 
 " Use g* goto 
 nmap <silent> gd  <Plug>(coc-definition)
-nmap <silent> gy  <Plug>(coc-type-definition)
-nmap <silent> gi  <Plug>(coc-implementation)
+nmap <silent> gD  <Plug>(coc-declaration)
 nmap <silent> gr  <Plug>(coc-references)
 
 " Use D to show documentation in preview window.
@@ -37,6 +36,9 @@ function! s:show_documentation()
   endif
 endfunction
 
+" Key bindings to move between diagnostics
+nmap <silent> [g <Plug>(coc-diagnostic-prev)
+nmap <silent> ]g <Plug>(coc-diagnostic-next)
 
 " Highlight the symbol and its references when holding the cursor.
 autocmd CursorHold * silent call CocActionAsync('highlight')
@@ -62,13 +64,6 @@ augroup end
 " Apply AutoFix to problem on the current line.
 " nmap <leader>qf  <Plug>(coc-fix-current)
 
-" Introduce function text object
-" NOTE: Requires 'textDocument.documentSymbol' support from the language server.
-xmap if <Plug>(coc-funcobj-i)
-xmap af <Plug>(coc-funcobj-a)
-omap if <Plug>(coc-funcobj-i)
-omap af <Plug>(coc-funcobj-a)
-
 " Use <TAB> for selections ranges.
 " NOTE: Requires 'textDocument/selectionRange' support from the language server.
 " coc-tsserver, coc-python are the examples of servers that support it.
@@ -87,7 +82,9 @@ command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organize
 " Add (Neo)Vim's native statusline support.
 " NOTE: Please see `:h coc-status` for integrations with external plugins that
 " provide custom statusline: lightline.vim, vim-airline.
-set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
+" set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}%{get(b:,'coc_diagnostic_info','')}
+" set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
+" set statusline^=%{coc#status()}
 
 " Mappings using CoCList:
 " Show all diagnostics.

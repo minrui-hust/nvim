@@ -26,12 +26,14 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 Plug 'luochen1990/rainbow'
+Plug 'Yggdroot/indentLine'
 Plug 'norcalli/nvim-colorizer.lua'
 Plug 'ryanoasis/vim-devicons'
 Plug 'haya14busa/vim-asterisk'
 Plug 'easymotion/vim-easymotion'
 Plug 'puremourning/vimspector'
 Plug 'junegunn/limelight.vim'
+Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'morhetz/gruvbox'
 call plug#end()
@@ -63,9 +65,11 @@ source $INITHOME/config/plug/fzf.vim
 source $INITHOME/config/plug/rnvimr.vim
 source $INITHOME/config/plug/gitgutter.vim
 source $INITHOME/config/plug/rainbow.vim
+source $INITHOME/config/plug/indentLine.vim
 source $INITHOME/config/plug/markdown-preview.vim
 source $INITHOME/config/plug/vimspector.vim
 source $INITHOME/config/plug/vim-asterisk.vim
 source $INITHOME/config/plug/easymotion.vim
+source $INITHOME/config/plug/cpp-enhanced-highlight.vim
 source $INITHOME/config/plug/nvim-colorizer.vim
 

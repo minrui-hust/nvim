@@ -5,7 +5,7 @@
   "suggest.completionItemKindLabels": {
     "text": "t",
     "method": "m",
-    "function": ""
+    "function": "f"
   },
 
   // diagnostics
