@@ -1,5 +1,5 @@
 " Key mappings
-let g:floaterm_keymap_toggle = '<F1>'
+let g:floaterm_keymap_toggle = '<F13>' "This maps to <S-F1>
 let g:floaterm_keymap_next = '<F2>'
 let g:floaterm_keymap_prev = '<F14>' " This maps to <S-F2>
 let g:floaterm_keymap_new = '<F3>'
