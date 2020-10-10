@@ -5,7 +5,7 @@
 "/___/_/ /_/_/\__(_)___/_/_/ /_/ /_/
 
 " Set the directory where init.vim lies in
-let $INITHOME=fnamemodify(expand('<sfile>'), ':h')
+let $INITHOME=fnamemodify(resolve(expand('<sfile>')), ':h')
 
 " Plugin manager
 source $INITHOME/config/plug/vim-plug.vim
@@ -31,9 +31,10 @@ Plug 'norcalli/nvim-colorizer.lua'
 Plug 'ryanoasis/vim-devicons'
 Plug 'haya14busa/vim-asterisk'
 Plug 'easymotion/vim-easymotion'
+Plug 'jpalardy/vim-slime'
 Plug 'puremourning/vimspector'
 Plug 'junegunn/limelight.vim'
-Plug 'octol/vim-cpp-enhanced-highlight'
+Plug 'neoclide/jsonc.vim'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'morhetz/gruvbox'
 call plug#end()
@@ -69,8 +70,8 @@ source $INITHOME/config/plug/rainbow.vim
 source $INITHOME/config/plug/indentLine.vim
 source $INITHOME/config/plug/markdown-preview.vim
 source $INITHOME/config/plug/vimspector.vim
+source $INITHOME/config/plug/vim-slime.vim
 source $INITHOME/config/plug/vim-asterisk.vim
 source $INITHOME/config/plug/easymotion.vim
-source $INITHOME/config/plug/cpp-enhanced-highlight.vim
 source $INITHOME/config/plug/nvim-colorizer.vim
 

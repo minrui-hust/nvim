@@ -1,10 +1,19 @@
 
 " Auto group to make terminal always in inster mode, whenever focus on
-augroup terminal_setup | au!
-  autocmd TermOpen,TermEnter,BufEnter term://* startinsert
-  autocmd TermOpen term://*
-                    \ nnoremap <buffer><LeftRelease> <LeftRelease>i|
-                    \ nnoremap <buffer><RightRelease> <RightRelease>i|
-                    \ nnoremap <buffer><MiddleRelease> <MiddleRelease>i
+if has('nvim')
+  augroup terminal_setup | au!
+    autocmd TermOpen,TermEnter,BufEnter term://* startinsert
+    autocmd TermOpen term://*
+          \ nnoremap <buffer><LeftRelease> <LeftRelease>i|
+          \ nnoremap <buffer><RightRelease> <RightRelease>i|
+          \ nnoremap <buffer><MiddleRelease> <MiddleRelease>i|
+          \ nnoremap <buffer><CR> a|
+          \ setlocal  nonumber| setlocal signcolumn=no
+  augroup end
+endif
+
+" Auto group treat json as jsonc
+augroup json_jsonc | au!
+  autocmd FileType json set filetype=jsonc
 augroup end
 

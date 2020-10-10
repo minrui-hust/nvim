@@ -14,12 +14,6 @@ nnoremap <silent> <S-TAB> :bprevious<CR>
 xnoremap K :move '<-2<CR>gv-gv
 xnoremap J :move '>+1<CR>gv-gv
 
-" Alternate way to save
-nnoremap <silent> <C-s> :w<CR>
-" Alternate way to quit
-nnoremap <silent> <C-Q> :wq!<CR>
-" Use control-c instead of escape
-nnoremap <silent> <C-c> <Esc>
 " <TAB>: completion.
 inoremap <silent> <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
