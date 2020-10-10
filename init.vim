@@ -50,6 +50,7 @@ let g:coc_global_extensions = [
 " Global settings
 source $INITHOME/config/common/settings.vim
 source $INITHOME/config/common/mappings.vim
+source $INITHOME/config/common/autocmd.vim
 source $INITHOME/config/common/functions.vim
 source $INITHOME/config/common/themes.vim
 
