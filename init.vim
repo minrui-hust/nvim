@@ -23,15 +23,15 @@ Plug 'liuchengxu/vim-which-key'
 Plug 'psliwka/vim-smoothie'
 Plug 'mhinz/vim-startify'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
-Plug 'airblade/vim-gitgutter'
-Plug 'tpope/vim-fugitive'
+"Plug 'airblade/vim-gitgutter'
+"Plug 'tpope/vim-fugitive'
+Plug 'preservim/tagbar'
 Plug 'luochen1990/rainbow'
 Plug 'Yggdroot/indentLine'
 Plug 'norcalli/nvim-colorizer.lua'
 Plug 'ryanoasis/vim-devicons'
 Plug 'haya14busa/vim-asterisk'
 Plug 'easymotion/vim-easymotion'
-Plug 'jpalardy/vim-slime'
 Plug 'puremourning/vimspector'
 Plug 'junegunn/limelight.vim'
 Plug 'neoclide/jsonc.vim'
@@ -70,7 +70,7 @@ source $INITHOME/config/plug/rainbow.vim
 source $INITHOME/config/plug/indentLine.vim
 source $INITHOME/config/plug/markdown-preview.vim
 source $INITHOME/config/plug/vimspector.vim
-source $INITHOME/config/plug/vim-slime.vim
+source $INITHOME/config/plug/tagbar.vim
 source $INITHOME/config/plug/vim-asterisk.vim
 source $INITHOME/config/plug/easymotion.vim
 source $INITHOME/config/plug/nvim-colorizer.vim

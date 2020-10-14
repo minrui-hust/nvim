@@ -117,7 +117,7 @@ else
   font_dir=~/.local/share/fonts
   pkg=Hack.zip
   pkg_path=https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/
-  sudo mkdir -p ${font_dir} || { echo Failed to create \'${font_dir}\' directory!!!;  exit 1; }
+  mkdir -p ${font_dir} || { echo Failed to create \'${font_dir}\' directory!!!;  exit 1; }
   wget -c -O /tmp/${pkg} ${pkg_path}/${pkg} || { echo Failed to download Hack Nerd Font!!!;  exit 1; }
   unzip /tmp/${pkg} -d ${font_dir} && fc-cache -vf ${font_dir} || { echo Install Hack Nerd Font failed!!!;  exit 1; }
   echo Hack Nerd Font installed done!!!

@@ -49,6 +49,9 @@ nnoremap <silent> <M-l>    :vertical resize +2<CR>
 nnoremap Y "+y
 nnoremap P "+p
 
+" Disable ZZ to quit, easy mixture with zz
+nnoremap ZZ <NOP>
+
 " This is reduandent to what is in which-key.
 " However, without this, the popup menu of which-key 
 "   would popup immediately without delay.

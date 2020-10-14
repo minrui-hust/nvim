@@ -9,4 +9,6 @@ paths.vim
 session
 wiki/
 pack/
-
+.XTablineBookmarks
+.XTablineSessions
+sessions/
