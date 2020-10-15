@@ -9,5 +9,5 @@ source $INITHOME/config/theme/floaterm.vim
 colorscheme gruvbox
 
 " Set Font
-set guifont=Hack\ Nerd\ Font
+" set guifont=Hack\ Nerd\ Font
 
