@@ -1,3 +1,4 @@
 
-GuiFont! Hack Nerd Font:h14
+GuiFont! Hack Nerd Font:h12
+GuiTabline 0
 

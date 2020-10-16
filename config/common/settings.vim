@@ -28,7 +28,7 @@ set background=dark                     " Set background dark, seems only needed
 set showtabline=2                       " Always show tabs
 set shortmess+=c                        " This is recommended by coc. Don't pass messages to |ins-completion-menu|.
 set signcolumn=yes                      " This is recommended by coc. Always show the signcolumn, or it will blink.
-set updatetime=100                      " This is recommended by coc. Faster completion.
+set updatetime=1000                     " This is recommended by coc. Faster completion.
 set timeoutlen=500                      " After how long which key menu will appear.
 set clipboard=unnamedplus               " Copy paste between vim and everything else.
 

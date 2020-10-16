@@ -1,7 +1,6 @@
 
 " Set pluging theme
 source $INITHOME/config/theme/airline.vim
-source $INITHOME/config/theme/tabline.vim
 source $INITHOME/config/theme/gruvbox.vim
 source $INITHOME/config/theme/floaterm.vim
 
@@ -9,5 +8,5 @@ source $INITHOME/config/theme/floaterm.vim
 colorscheme gruvbox
 
 " Set Font
-" set guifont=Hack\ Nerd\ Font
+set guifont=Hack\ Nerd\ Font:h12
 

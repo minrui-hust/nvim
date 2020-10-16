@@ -14,7 +14,6 @@ source $INITHOME/config/plug/vim-plug.vim
 call plug#begin($INITHOME.'/autoload/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-airline/vim-airline'
-Plug 'mg979/vim-xtabline'
 Plug 'voldikss/vim-floaterm'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
@@ -23,8 +22,8 @@ Plug 'liuchengxu/vim-which-key'
 Plug 'psliwka/vim-smoothie'
 Plug 'mhinz/vim-startify'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
-"Plug 'airblade/vim-gitgutter'
-"Plug 'tpope/vim-fugitive'
+" Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
 Plug 'preservim/tagbar'
 Plug 'luochen1990/rainbow'
 Plug 'Yggdroot/indentLine'
@@ -33,6 +32,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'haya14busa/vim-asterisk'
 Plug 'easymotion/vim-easymotion'
 Plug 'puremourning/vimspector'
+Plug 'sheerun/vim-polyglot'
 Plug 'junegunn/limelight.vim'
 Plug 'neoclide/jsonc.vim'
 Plug 'vim-airline/vim-airline-themes'
@@ -59,7 +59,6 @@ source $INITHOME/config/common/themes.vim
 " Plugin specific settings
 source $INITHOME/config/plug/coc.vim
 source $INITHOME/config/plug/which-key.vim
-source $INITHOME/config/plug/xtabline.vim
 source $INITHOME/config/plug/smoothie.vim
 source $INITHOME/config/plug/start-screen.vim
 source $INITHOME/config/plug/floaterm.vim
