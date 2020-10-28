@@ -9,7 +9,7 @@
   },
 
   // diagnostics
-  "diagnostic.errorSign": "",
+  "diagnostic.errorSign": " ",
   "diagnostic.warningSign": " ",
   "diagnostic.infoSign": "",
   "diagnostic.hintSign": " ",
@@ -38,15 +38,13 @@
   "coc.preferences.hoverTarget": "float",
 
   // python config
+  "python.jediEnabled": true,
   "python.linting.enabled": true,
-  "python.linting.pylintEnabled": true,
-  // "python.formatting.provider": "black",
-  // "python.formatting.blackPath": "~/.local/bin/black",
-  // "python.linting.pylintPath": "~/.miniconda/envs/neovim/bin/pylint",
-  "python.condaPath": "~/miniconda3/bin/conda",
-  // "python.sortImports.path": "~/.miniconda/envs/neovim/bin/isort",
-  // "python.jediPath": "~/.miniconda/envs/neovim/lib/python3.8/site-packages",
-  "python.jediEnabled": false,
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.formatting.provider": "yapf",
+  "python.linting.flake8Args":["--ignore=E501,W503,W504,F401"],
+
 
   // snippets
   "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/snips"],

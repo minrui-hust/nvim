@@ -10,7 +10,7 @@ let g:which_key_map_space['q'] = [':q', 'quit']
 let g:which_key_map_space['o'] = [':only', 'only']
 let g:which_key_map_space['w'] = [':w', 'write']
 let g:which_key_map_space[';'] = [':let @/=""', 'clear highlight']
-let g:which_key_map_space['='] = ['<Plug>(coc-format)', 'format']
+let g:which_key_map_space['='] = [':FormatAndSave', 'format']
 
 
 " Group mappings

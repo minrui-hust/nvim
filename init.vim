@@ -22,7 +22,7 @@ Plug 'liuchengxu/vim-which-key'
 Plug 'psliwka/vim-smoothie'
 Plug 'mhinz/vim-startify'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
-" Plug 'airblade/vim-gitgutter'
+Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 Plug 'preservim/tagbar'
 Plug 'luochen1990/rainbow'
