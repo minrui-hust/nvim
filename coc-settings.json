@@ -9,10 +9,11 @@
   },
 
   // diagnostics
-  "diagnostic.errorSign": " ",
-  "diagnostic.warningSign": " ",
+  "diagnostic.errorSign": "",
+  "diagnostic.warningSign": "",
   "diagnostic.infoSign": "",
-  "diagnostic.hintSign": " ",
+  "diagnostic.hintSign": "",
+  "diagnostic.checkCurrentLine":true,
   // "diagnostic.displayByAle": true,
   // "diagnostic.virtualText": true, // this won't work with codelens when error on same line
 
@@ -21,7 +22,7 @@
 
   // list
   "list.indicator": ">",
-  "list.selectedSignText": " ",
+  "list.selectedSignText": "",
 
   // autoformat
   "coc.preferences.formatOnSaveFiletypes": [

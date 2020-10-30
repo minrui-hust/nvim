@@ -2,7 +2,7 @@ syntax enable
 
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set nowrap                              " Display long lines as just one line
-set ruler              			            " Show the cursor position all the time
+set ruler            			              " Show the cursor position all the time
 set splitbelow                          " Horizontal splits will automatically be below
 set splitright                          " Vertical splits will automatically be to the right
 set smarttab                            " Makes tabbing smarter will realize you have 2 vs 4
