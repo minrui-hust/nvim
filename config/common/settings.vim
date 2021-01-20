@@ -16,7 +16,7 @@ set nowritebackup                       " This is recommended by coc.
 set termguicolors                       " Use gui color even in terminal
 
 set mouse=a                             " Enable your mouse
-set iskeyword+=-                      	" treat dash separated words as a word text object"
+" set iskeyword+=-                      	" treat dash separated words as a word text object"
 set encoding=utf-8                      " The encoding displayed
 set pumheight=10                        " Makes popup menu smaller
 set fileencoding=utf-8                  " The encoding written to file
