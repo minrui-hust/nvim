@@ -12,8 +12,3 @@ if has('nvim')
   augroup end
 endif
 
-" Auto group treat json as jsonc
-augroup json_jsonc | au!
-  autocmd FileType json set filetype=jsonc
-augroup end
-

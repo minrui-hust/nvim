@@ -2,7 +2,7 @@ syntax enable
 
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set nowrap                              " Display long lines as just one line
-set ruler              			            " Show the cursor position all the time
+set ruler            			              " Show the cursor position all the time
 set splitbelow                          " Horizontal splits will automatically be below
 set splitright                          " Vertical splits will automatically be to the right
 set smarttab                            " Makes tabbing smarter will realize you have 2 vs 4
@@ -16,7 +16,7 @@ set nowritebackup                       " This is recommended by coc.
 set termguicolors                       " Use gui color even in terminal
 
 set mouse=a                             " Enable your mouse
-set iskeyword+=-                      	" treat dash separated words as a word text object"
+" set iskeyword+=-                      	" treat dash separated words as a word text object"
 set encoding=utf-8                      " The encoding displayed
 set pumheight=10                        " Makes popup menu smaller
 set fileencoding=utf-8                  " The encoding written to file
