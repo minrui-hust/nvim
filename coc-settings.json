@@ -13,7 +13,7 @@
   "diagnostic.warningSign": "",
   "diagnostic.infoSign": "",
   "diagnostic.hintSign": "",
-  "diagnostic.checkCurrentLine":true,
+  "diagnostic.checkCurrentLine": true,
   // "diagnostic.displayByAle": true,
   // "diagnostic.virtualText": true, // this won't work with codelens when error on same line
 
@@ -43,9 +43,9 @@
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": false,
   "python.linting.flake8Enabled": true,
-  "python.formatting.provider": "yapf",
-  "python.linting.flake8Args":["--ignore=E501,W503,W504,F401"],
-
+  "python.formatting.provider": "autopep8",
+  // "python.formatting.autopep8Args": ["--max-line-length=100"],
+  "python.linting.flake8Args": ["--ignore=E501,W503,W504,F401"],
 
   // snippets
   "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/snips"],
