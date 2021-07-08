@@ -10,7 +10,7 @@ nmap s <Plug>(easymotion-overwin-f2)
 
 
 " Jump via 1-char in current line
-map f <Plug>(easymotion-bd-fl)
+nmap f <Plug>(easymotion-bd-fl)
 
 
 " Jump to {line} in all windows
