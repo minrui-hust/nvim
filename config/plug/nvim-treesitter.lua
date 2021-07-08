@@ -5,6 +5,23 @@ require "nvim-treesitter.configs".setup {
     enable = true,              -- false will disable the whole extension
   },
 
+  textobjects = {
+    select = {
+      enable = true,
+
+      -- Automatically jump forward to textobj, similar to targets.vim 
+      lookahead = true,
+
+      keymaps = {
+        -- You can use the capture groups defined in textobjects.scm
+        ["af"] = "@function.outer",
+        ["if"] = "@function.inner",
+        ["ac"] = "@class.outer",
+        ["ic"] = "@class.inner",
+        },
+      },
+  },
+
   playground = {
     enable = true,
     disable = {},

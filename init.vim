@@ -34,6 +34,7 @@ Plug 'easymotion/vim-easymotion'
 Plug 'puremourning/vimspector'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'nvim-treesitter/playground'
+Plug 'nvim-treesitter/nvim-treesitter-textobjects'
 Plug 'junegunn/limelight.vim'
 Plug 'neoclide/jsonc.vim'
 Plug 'vim-airline/vim-airline-themes'
