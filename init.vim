@@ -40,14 +40,6 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'morhetz/gruvbox'
 call plug#end()
 
-" Put coc plugins here
-let g:coc_global_extensions = [
-  \ 'coc-snippets', 'coc-sh', 'coc-lists', 'coc-emmet', 'coc-tasks',
-  \ 'coc-floaterm', 'coc-emoji', 'coc-yaml', 'coc-python', 'coc-clangd',
-  \ 'coc-explorer', 'coc-svg', 'coc-prettier', 'coc-vimlsp', 'coc-xml',
-  \ 'coc-yank', 'coc-json', 'coc-marketplace',
-  \ ]
-
 
 " Global settings
 source $INITHOME/config/common/settings.vim

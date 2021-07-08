@@ -1,3 +1,20 @@
+" Put coc plugins here
+" let g:coc_global_extensions = [
+"   \ 'coc-snippets', 'coc-sh', 'coc-lists', 'coc-emmet', 'coc-tasks',
+"   \ 'coc-floaterm', 'coc-emoji', 'coc-yaml', 'coc-python', 'coc-clangd',
+"   \ 'coc-explorer', 'coc-svg', 'coc-prettier', 'coc-vimlsp', 'coc-xml',
+"   \ 'coc-yank', 'coc-json', 'coc-marketplace',
+"   \ ]
+let g:coc_global_extensions = [
+  \ 'coc-sh',
+  \ 'coc-yaml', 
+  \ 'coc-python', 
+  \ 'coc-clangd', 
+  \ 'coc-vimlsp', 
+  \ 'coc-xml',
+  \ 'coc-json',
+  \ ]
+
 
 " Use tab for trigger completion with characters ahead and navigate.
 inoremap <silent><expr> <TAB>
@@ -10,7 +27,6 @@ function! s:check_back_space() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
-
 
 " Use <cr> to confirm completion, `<C-g>u` means break undo chain at current position. 
 " Coc only does snippet and additional edit on confirm.
