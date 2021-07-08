@@ -44,7 +44,7 @@ else
   nvim_image=nvim.appimage
   nvim_image_path=https://github.com/neovim/neovim/releases/download/nightly/
   wget -c -O /tmp/${nvim_image} ${nvim_image_path}/${nvim_image} || { echo Neovim install failed!!!;  exit 1; }
-  sudo cp -f /tmp/${nvim_image} /usr/bin \
+  sudo mv -f /tmp/${nvim_image} /usr/bin \
     && sudo chmod +x /usr/bin/${nvim_image} \
     && sudo ln -sf /usr/bin/${nvim_image} /usr/bin/nvim \
     && echo Neovim installed done!!!

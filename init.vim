@@ -32,8 +32,8 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'haya14busa/vim-asterisk'
 Plug 'easymotion/vim-easymotion'
 Plug 'puremourning/vimspector'
-" Plug 'sheerun/vim-polyglot'
-" Plug 'vim-python/python-syntax'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'nvim-treesitter/playground'
 Plug 'junegunn/limelight.vim'
 Plug 'neoclide/jsonc.vim'
 Plug 'vim-airline/vim-airline-themes'
@@ -74,4 +74,5 @@ source $INITHOME/config/plug/tagbar.vim
 source $INITHOME/config/plug/vim-asterisk.vim
 source $INITHOME/config/plug/easymotion.vim
 source $INITHOME/config/plug/nvim-colorizer.vim
+luafile $INITHOME/config/plug/nvim-treesitter.lua
 
