@@ -38,6 +38,8 @@ Plug 'junegunn/limelight.vim'
 Plug 'neoclide/jsonc.vim'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'morhetz/gruvbox'
+Plug 'preservim/nerdcommenter'
+" Plug 'neovim/nvim-lspconfig'
 call plug#end()
 
 
@@ -67,4 +69,6 @@ source $INITHOME/config/plug/vim-asterisk.vim
 source $INITHOME/config/plug/easymotion.vim
 source $INITHOME/config/plug/nvim-colorizer.vim
 luafile $INITHOME/config/plug/nvim-treesitter.lua
+source $INITHOME/config/plug/nerdcommenter.vim
+" luafile $INITHOME/config/plug/nvim-lspconfig.lua
 
