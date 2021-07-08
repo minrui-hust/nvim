@@ -9,16 +9,16 @@
   },
 
   // diagnostics
-  "diagnostic.errorSign": "",
+  "diagnostic.errorSign": "",
   "diagnostic.warningSign": "",
   "diagnostic.infoSign": "",
   "diagnostic.hintSign": "",
   "diagnostic.checkCurrentLine": true,
-  // "diagnostic.displayByAle": true,
-  // "diagnostic.virtualText": true, // this won't work with codelens when error on same line
+  "diagnostic.messageTarget": "float",
+  "diagnostic.virtualText": false,
 
   // codelens
-  "codeLens.enable": true,
+  // "codeLens.enable": true,
 
   // autoformat
   "coc.preferences.formatOnSaveFiletypes": [

@@ -61,7 +61,6 @@ source $INITHOME/config/plug/floaterm.vim
 source $INITHOME/config/plug/fzf.vim
 source $INITHOME/config/plug/rnvimr.vim
 source $INITHOME/config/plug/gitgutter.vim
-source $INITHOME/config/plug/rainbow.vim
 source $INITHOME/config/plug/indentLine.vim
 source $INITHOME/config/plug/markdown-preview.vim
 source $INITHOME/config/plug/vimspector.vim
@@ -71,5 +70,6 @@ source $INITHOME/config/plug/easymotion.vim
 source $INITHOME/config/plug/nvim-colorizer.vim
 luafile $INITHOME/config/plug/nvim-treesitter.lua
 source $INITHOME/config/plug/nerdcommenter.vim
+source $INITHOME/config/plug/rainbow.vim
 " luafile $INITHOME/config/plug/nvim-lspconfig.lua
 
