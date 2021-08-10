@@ -123,6 +123,18 @@ else
   echo Hack Nerd Font installed done!!!
 fi
 
+if [ ! ${force} ] && (fc-list | grep 'FiraCode' &>> /dev/null); then
+  echo FiraCode Font already installed
+else
+  echo Installing FiraCode Font...
+  font_dir=~/.local/share/fonts
+  pkg=FiraCode.zip
+  pkg_path=https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/
+  mkdir -p ${font_dir} || { echo Failed to create \'${font_dir}\' directory!!!;  exit 1; }
+  wget -c -O /tmp/${pkg} ${pkg_path}/${pkg} || { echo Failed to download FiraCode font !!!;  exit 1; }
+  unzip /tmp/${pkg} -d ${font_dir} && fc-cache -vf ${font_dir} || { echo Install FiraCode font failed!!!;  exit 1; }
+  echo FiraCode font installed done!!!
+fi
 
 echo ""
 echo Install done!!!
