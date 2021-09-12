@@ -60,6 +60,11 @@ else
   echo Node.js install done!!!
 fi
 
+# Check and install pip3
+if ! (pip3 --version &>> /dev/null); then
+  sudo apt install python3-pip -y
+fi
+
 # Check and install ranger
 if [ ! ${force} ] && (ranger --version &>> /dev/null); then
   echo Ranger is already installed
@@ -108,6 +113,10 @@ else
   sudo dpkg -i /tmp/${pkg}  || { echo Bat install failed!!!;  exit 1; }
   echo Bat installed done!!!
 fi
+
+# Install xsel
+echo Installing bat...
+sudo apt install xsel -y
 
 # Install nerd font
 if [ ! ${force} ] && (fc-list | grep 'Hack Nerd Font' &>> /dev/null); then
