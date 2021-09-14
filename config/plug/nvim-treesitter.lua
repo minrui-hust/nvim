@@ -18,9 +18,9 @@ require "nvim-treesitter.configs".setup {
       keymaps = {
         -- You can use the capture groups defined in textobjects.scm
         ["af"] = "@function.outer",
-        ["f"] = "@function.inner",
+        ["if"] = "@function.inner",
         ["ac"] = "@class.outer",
-        ["c"] = "@class.inner",
+        ["ic"] = "@class.inner",
         },
       },
   },

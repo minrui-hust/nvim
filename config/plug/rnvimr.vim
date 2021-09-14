@@ -27,5 +27,5 @@ let g:rnvimr_action = {
             \ }
 
 " This is also mapped in which-key
-nmap <leader>r :RnvimrToggle<CR>
+" nmap <leader>r :RnvimrToggle<CR>
 

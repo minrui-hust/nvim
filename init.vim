@@ -18,6 +18,7 @@ Plug 'voldikss/vim-floaterm'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'kevinhwang91/rnvimr'
+Plug 'preservim/nerdtree'
 Plug 'liuchengxu/vim-which-key'
 Plug 'psliwka/vim-smoothie'
 Plug 'mhinz/vim-startify'
@@ -70,6 +71,7 @@ source $INITHOME/config/plug/easymotion.vim
 source $INITHOME/config/plug/nvim-colorizer.vim
 luafile $INITHOME/config/plug/nvim-treesitter.lua
 source $INITHOME/config/plug/nerdcommenter.vim
+source $INITHOME/config/plug/nerdtree.vim
 source $INITHOME/config/plug/rainbow.vim
 " luafile $INITHOME/config/plug/nvim-lspconfig.lua
 
