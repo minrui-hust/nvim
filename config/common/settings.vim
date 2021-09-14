@@ -24,12 +24,7 @@ set tabstop=2                           " Insert 2 spaces for a tab
 set shiftwidth=2                        " Change the number of space characters inserted for indentation
 set laststatus=2                        " Always display the status line
 set background=dark                     " Set background dark, seems only needed for vim
-if $TMUX == ""                          " Do not show tabline when in tmux
-  set showtabline=2
-else
-  set showtabline=0
-  echomsg "tmux exists, do not show tabline"
-endif
+set showtabline=2                       " Always show tabline
 set shortmess+=c                        " This is recommended by coc. Don't pass messages to |ins-completion-menu|.
 set signcolumn=yes                      " This is recommended by coc. Always show the signcolumn, or it will blink.
 set updatetime=500                     " This is recommended by coc. Faster completion.
