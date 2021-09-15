@@ -2,8 +2,8 @@
 let g:NERDCreateDefaultMappings = 0
 
 " Use backspace to toggle comment
-nnoremap <bs> :call NERDComment('n', 'toggle')<cr>
-vnoremap <bs> :call NERDComment('x', 'toggle')<cr>
+nnoremap <bs> :call nerdcommenter#Comment('n', 'toggle')<cr>
+vnoremap <bs> :call nerdcommenter#Comment('x', 'toggle')<cr>
 
 " Add spaces after comment delimiters by default
 let g:NERDSpaceDelims = 1
