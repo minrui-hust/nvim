@@ -31,6 +31,7 @@ let g:rainbow_conf = {
       \'parentheses': ['start=/{/ end=/}/ fold contains=@colorableGroup'],
       \},
       \'css': 0,
+      \'nerdtree': 0,
       \}
       \}
 

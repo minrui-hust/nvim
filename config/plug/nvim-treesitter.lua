@@ -3,9 +3,8 @@ require "nvim-treesitter.configs".setup {
 
   highlight = {
     enable = true,              -- false will disable the whole extension
-    custom_captures = {
-      ["punctuation.bracket"] = nil,
-    },
+    custom_captures = {},
+    additional_vim_regex_highlighting = false,
   },
 
   textobjects = {
@@ -18,9 +17,9 @@ require "nvim-treesitter.configs".setup {
       keymaps = {
         -- You can use the capture groups defined in textobjects.scm
         ["af"] = "@function.outer",
-        ["f"] = "@function.inner",
+        ["if"] = "@function.inner",
         ["ac"] = "@class.outer",
-        ["c"] = "@class.inner",
+        ["ic"] = "@class.inner",
         },
       },
   },
