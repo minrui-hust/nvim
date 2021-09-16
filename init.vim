@@ -26,7 +26,6 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 Plug 'preservim/tagbar'
-" Plug 'luochen1990/rainbow'
 Plug 'p00f/nvim-ts-rainbow'
 Plug 'Yggdroot/indentLine'
 Plug 'norcalli/nvim-colorizer.lua'
@@ -42,6 +41,7 @@ Plug 'neoclide/jsonc.vim'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'morhetz/gruvbox'
 Plug 'preservim/nerdcommenter'
+" Plug 'luochen1990/rainbow'
 " Plug 'neovim/nvim-lspconfig'
 call plug#end()
 

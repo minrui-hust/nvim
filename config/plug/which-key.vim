@@ -7,6 +7,7 @@ let g:which_key_map_space['.'] = [':e $MYVIMRC', 'open init']
 let g:which_key_map_space['r'] = [':RnvimrToggle', 'ranger']
 let g:which_key_map_space['e'] = [':NERDTreeToggle', 'explorer']
 let g:which_key_map_space['q'] = [':q', 'quit']
+let g:which_key_map_space['x'] = [':qa', 'quit all']
 let g:which_key_map_space['o'] = [':only', 'only']
 let g:which_key_map_space['w'] = [':w', 'write']
 let g:which_key_map_space['/'] = [':let @/=""', 'clear highlight']
@@ -14,6 +15,7 @@ let g:which_key_map_space['='] = [':FormatAndSave', 'format and save']
 let g:which_key_map_space['v'] = [':vs', 'v-split']
 let g:which_key_map_space['s'] = [':sp', 'h-split']
 let g:which_key_map_space[';'] = [':TagbarToggle', 'toggle tagbar']
+let g:which_key_map_space[' '] = [':only|Startify', 'Startify']
 
 " l is for language server protocol
 let g:which_key_map_space.l = {
