@@ -2,7 +2,7 @@
 let g:coc_global_extensions = [
   \ 'coc-sh',
   \ 'coc-yaml', 
-  \ 'coc-python', 
+  \ 'coc-pyright', 
   \ 'coc-clangd', 
   \ 'coc-vimlsp', 
   \ 'coc-xml',

@@ -109,13 +109,13 @@ local mappings = {
 
   c = {
       name = '+coc' ,
-      [','] = {':CocLocalConfig'                     , 'coc local config'},
-      ['.'] = {':CocConfig'                          , 'coc global config'},
-      ['R'] = {':CocRestart'                         , 'restart coc'},
-      ['c'] = {':CocList commands'                   , 'list commands'},
-      ['m'] = {':CocList marketplace'                , 'marketplace'},
-      ['d'] = {':CocList diagnostics'                , 'list diagnostics'},
-      ['o'] = {':CocList outline'                    , 'list outline'},
+      [','] = {'<cmd>CocLocalConfig<CR>'                     , 'coc local config'},
+      ['.'] = {'<cmd>CocConfig<CR>'                          , 'coc global config'},
+      ['R'] = {'<cmd>CocRestart<CR>'                         , 'restart coc'},
+      ['c'] = {'<cmd>CocList commands<CR>'                   , 'list commands'},
+      ['m'] = {'<cmd>CocList marketplace<CR>'                , 'marketplace'},
+      ['d'] = {'<cmd>CocList diagnostics<CR>'                , 'list diagnostics'},
+      ['o'] = {'<cmd>CocList outline<CR>'                    , 'list outline'},
   },
 }
 
