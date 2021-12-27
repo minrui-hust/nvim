@@ -56,7 +56,8 @@ source $INITHOME/config/common/themes.vim
 
 " Plugin specific settings
 source $INITHOME/config/plug/coc.vim
-source $INITHOME/config/plug/which-key.vim
+" source $INITHOME/config/plug/which-key.vim
+luafile $INITHOME/config/plug/which-key.lua
 source $INITHOME/config/plug/smoothie.vim
 source $INITHOME/config/plug/start-screen.vim
 source $INITHOME/config/plug/floaterm.vim
