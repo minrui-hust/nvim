@@ -19,7 +19,8 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'kevinhwang91/rnvimr'
 Plug 'preservim/nerdtree'
-Plug 'liuchengxu/vim-which-key'
+" Plug 'liuchengxu/vim-which-key'
+Plug 'folke/which-key.nvim'
 Plug 'psliwka/vim-smoothie'
 Plug 'mhinz/vim-startify'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
@@ -56,7 +57,8 @@ source $INITHOME/config/common/themes.vim
 
 " Plugin specific settings
 source $INITHOME/config/plug/coc.vim
-source $INITHOME/config/plug/which-key.vim
+" source $INITHOME/config/plug/which-key.vim
+luafile $INITHOME/config/plug/which-key.lua
 source $INITHOME/config/plug/smoothie.vim
 source $INITHOME/config/plug/start-screen.vim
 source $INITHOME/config/plug/floaterm.vim
