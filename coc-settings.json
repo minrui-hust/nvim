@@ -34,7 +34,6 @@
   ],
 
   // python config
-  "python.jediEnabled": false,
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": false,
   "python.linting.flake8Enabled": true,
@@ -42,5 +41,5 @@
   "python.linting.flake8Args": ["--ignore=E501,W503,W504,F401"],
 
   // clangd
-  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/12.0.1/clangd_12.0.1/bin/clangd"
+  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/13.0.0/clangd_13.0.0/bin/clangd"
 }

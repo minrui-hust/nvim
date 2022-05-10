@@ -91,7 +91,6 @@ local mappings = {
   ['v'] = {'<cmd>vs<CR>', 'v-split'},
   ['s'] = {'<cmd>sp<CR>', 'h-split'},
   [';'] = {'<cmd>TagbarToggle<CR>', 'toggle tagbar'},
-  [' '] = {'<cmd>only|Startify<CR>', 'Startify'},
 
   l = {
     name = '+lsp' ,

@@ -14,7 +14,7 @@ let g:rnvimr_bw_enable = 1
 let g:rnvimr_ranger_cmd = 'ranger --cmd="set draw_borders both"'
 
 " preset layout
-let g:rnvimr_presets = [{'width': 0.800, 'height': 0.800}]
+let g:rnvimr_presets = [{'width': 0.850, 'height': 0.900}]
 
 " Map Rnvimr action
 let g:rnvimr_action = {

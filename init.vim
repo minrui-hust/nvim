@@ -19,10 +19,11 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'kevinhwang91/rnvimr'
 Plug 'preservim/nerdtree'
-" Plug 'liuchengxu/vim-which-key'
 Plug 'folke/which-key.nvim'
 Plug 'psliwka/vim-smoothie'
 Plug 'mhinz/vim-startify'
+Plug 'godlygeek/tabular'
+" Plug 'preservim/vim-markdown'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
@@ -42,8 +43,7 @@ Plug 'neoclide/jsonc.vim'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'morhetz/gruvbox'
 Plug 'preservim/nerdcommenter'
-" Plug 'luochen1990/rainbow'
-" Plug 'neovim/nvim-lspconfig'
+" Plug 'jackguo380/vim-lsp-cxx-highlight'
 call plug#end()
 
 
