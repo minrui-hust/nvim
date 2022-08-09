@@ -12,4 +12,3 @@ let g:airline#extensions#default#layout = [
       \ [ 'a', 'b', 'c' ],
       \ [ 'x', 'z', 'error', 'warning']
       \ ]
-

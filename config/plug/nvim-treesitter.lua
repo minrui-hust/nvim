@@ -1,5 +1,5 @@
 require "nvim-treesitter.configs".setup {
-  ensure_installed = {"cpp", "python"}, -- one of "all", "maintained" (parsers with maintainers), or a list of languages
+  ensure_installed = {"cpp", "python", "yaml"}, -- one of "all", "maintained" (parsers with maintainers), or a list of languages
   ignore_install = {"tlaplus"},
 
   highlight = {

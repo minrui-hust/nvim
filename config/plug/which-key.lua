@@ -91,6 +91,7 @@ local mappings = {
   ['v'] = {'<cmd>vs<CR>', 'v-split'},
   ['s'] = {'<cmd>sp<CR>', 'h-split'},
   [';'] = {'<cmd>TagbarToggle<CR>', 'toggle tagbar'},
+  ['z'] = {'<cmd>call zoom#toggle()<CR>', 'toggle window'},
 
   l = {
     name = '+lsp' ,

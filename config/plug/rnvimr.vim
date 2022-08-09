@@ -11,7 +11,7 @@ let g:rnvimr_pick_enable = 1
 let g:rnvimr_bw_enable = 1
 
 " draw both borders
-let g:rnvimr_ranger_cmd = 'ranger --cmd="set draw_borders both"'
+let g:rnvimr_ranger_cmd = ['ranger', '--cmd=set draw_borders both']
 
 " preset layout
 let g:rnvimr_presets = [{'width': 0.850, 'height': 0.900}]

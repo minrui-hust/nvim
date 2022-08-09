@@ -43,6 +43,7 @@ Plug 'neoclide/jsonc.vim'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'morhetz/gruvbox'
 Plug 'preservim/nerdcommenter'
+Plug 'dhruvasagar/vim-zoom'
 " Plug 'jackguo380/vim-lsp-cxx-highlight'
 call plug#end()
 
@@ -76,6 +77,7 @@ luafile $INITHOME/config/plug/nvim-treesitter.lua
 luafile $INITHOME/config/plug/nvim-ts-rainbow.lua
 source $INITHOME/config/plug/nerdcommenter.vim
 source $INITHOME/config/plug/nerdtree.vim
+source $INITHOME/config/plug/vim-zoom.vim
 " source $INITHOME/config/plug/rainbow.vim
 " luafile $INITHOME/config/plug/nvim-lspconfig.lua
 
