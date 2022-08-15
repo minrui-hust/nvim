@@ -34,6 +34,7 @@ Plug 'norcalli/nvim-colorizer.lua'
 Plug 'ryanoasis/vim-devicons'
 Plug 'haya14busa/vim-asterisk'
 Plug 'easymotion/vim-easymotion'
+" Plug 'phaazon/hop.nvim'
 Plug 'puremourning/vimspector'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'nvim-treesitter/playground'
@@ -72,6 +73,7 @@ source $INITHOME/config/plug/vimspector.vim
 source $INITHOME/config/plug/tagbar.vim
 source $INITHOME/config/plug/vim-asterisk.vim
 source $INITHOME/config/plug/easymotion.vim
+" luafile $INITHOME/config/plug/hop.lua
 source $INITHOME/config/plug/nvim-colorizer.vim
 luafile $INITHOME/config/plug/nvim-treesitter.lua
 luafile $INITHOME/config/plug/nvim-ts-rainbow.lua
