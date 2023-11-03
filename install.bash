@@ -119,6 +119,8 @@ echo Installing bat...
 sudo apt install xsel -y
 
 # Install nerd font
+sudo apt install unzip -y
+
 if [ ! ${force} ] && (fc-list | grep 'Hack Nerd Font' &>> /dev/null); then
   echo Hack Nerd Font already installed
 else
