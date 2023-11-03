@@ -55,7 +55,7 @@ if [ ! ${force} ] && (node -v &>> /dev/null); then
   echo Node.js already installed
 else
   echo Installing Node.js...
-  curl -sL install-node.now.sh/lts > /tmp/install_node.bash || { echo Node.js install failed!!!;  exit 1; }
+  wget install-node.now.sh/lts -O /tmp/install_node.bash || { echo Node.js install failed!!!;  exit 1; }
   sudo bash /tmp/install_node.bash -y || { echo Node.js install failed!!!;  exit 1; }
   echo Node.js install done!!!
 fi
