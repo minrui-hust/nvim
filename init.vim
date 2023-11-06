@@ -28,7 +28,6 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 Plug 'preservim/tagbar'
-Plug 'p00f/nvim-ts-rainbow'
 Plug 'Yggdroot/indentLine'
 Plug 'norcalli/nvim-colorizer.lua'
 Plug 'ryanoasis/vim-devicons'
@@ -76,10 +75,8 @@ source $INITHOME/config/plug/easymotion.vim
 " luafile $INITHOME/config/plug/hop.lua
 source $INITHOME/config/plug/nvim-colorizer.vim
 luafile $INITHOME/config/plug/nvim-treesitter.lua
-luafile $INITHOME/config/plug/nvim-ts-rainbow.lua
 source $INITHOME/config/plug/nerdcommenter.vim
 source $INITHOME/config/plug/nerdtree.vim
 source $INITHOME/config/plug/vim-zoom.vim
-" source $INITHOME/config/plug/rainbow.vim
 " luafile $INITHOME/config/plug/nvim-lspconfig.lua
 
