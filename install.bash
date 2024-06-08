@@ -37,7 +37,7 @@ for opt in $@; do
 done
 
 # install apt dependencies
-apt update && apt install -y \
+apt-get update && apt-get install -y \
   wget \
   curl \
   xsel \
