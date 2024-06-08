@@ -43,6 +43,7 @@ apt-get update && apt-get install -y \
   xsel \
   zip unzip \
   bat \
+  ripgrep \
   python3-pip \
   python3-pynvim \
   ranger
@@ -69,18 +70,6 @@ else
   wget install-node.now.sh/lts -O /tmp/install_node.bash || { echo Node.js install failed!!!;  exit 1; }
   bash /tmp/install_node.bash -y || { echo Node.js install failed!!!;  exit 1; }
   echo Node.js install done!!!
-fi
-
-# Check and install repgrep
-if [ ! ${force} ] && (rg --version &>> /dev/null); then
-  echo Ripgrep already installed
-else
-  echo Installing ripgrep...
-  rg_pkg=ripgrep_12.1.1_amd64.deb 
-  rg_pkg_path=https://github.com/BurntSushi/ripgrep/releases/download/12.1.1/
-  wget -c -O /tmp/${rg_pkg} ${rg_pkg_path}/${rg_pkg} || { echo Ripgrep install failed!!!;  exit 1; }
-  dpkg -i /tmp/${rg_pkg}  || { echo Ripgrep install failed!!!;  exit 1; }
-  echo Ripgrep installed done!!!
 fi
 
 # Install Hack Nerd Font
