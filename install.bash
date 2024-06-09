@@ -5,6 +5,7 @@ set -u
 
 force=
 stable=
+font=
 
 help(){
   cat << EOF
@@ -27,6 +28,9 @@ for opt in $@; do
       ;;
     --force)
       force=1
+      ;;
+    --font)
+      font=1
       ;;
     *)
       echo "Unknow option: $opt"
@@ -73,17 +77,21 @@ else
 fi
 
 # Install Hack Nerd Font
-if [ ! ${force} ] && (fc-list | grep 'Hack Nerd Font' &>> /dev/null); then
-  echo Hack Nerd Font already installed
+if [ ${font} ]; then
+  if [ ! ${force} ] && (fc-list | grep 'Hack Nerd Font' &>> /dev/null); then
+    echo Hack Nerd Font already installed
+  else
+    echo Installing Hack Nerd Font...
+    font_dir=~/.local/share/fonts
+    pkg=Hack.zip
+    pkg_path=https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/
+    mkdir -p ${font_dir} || { echo Failed to create \'${font_dir}\' directory!!!;  exit 1; }
+    wget -c -O /tmp/${pkg} ${pkg_path}/${pkg} || { echo Failed to download Hack Nerd Font!!!;  exit 1; }
+    unzip /tmp/${pkg} -d ${font_dir} && fc-cache -vf ${font_dir} || { echo Install Hack Nerd Font failed!!!;  exit 1; }
+    echo Hack Nerd Font installed done!!!
+  fi
 else
-  echo Installing Hack Nerd Font...
-  font_dir=~/.local/share/fonts
-  pkg=Hack.zip
-  pkg_path=https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/
-  mkdir -p ${font_dir} || { echo Failed to create \'${font_dir}\' directory!!!;  exit 1; }
-  wget -c -O /tmp/${pkg} ${pkg_path}/${pkg} || { echo Failed to download Hack Nerd Font!!!;  exit 1; }
-  unzip /tmp/${pkg} -d ${font_dir} && fc-cache -vf ${font_dir} || { echo Install Hack Nerd Font failed!!!;  exit 1; }
-  echo Hack Nerd Font installed done!!!
+  echo Skip install font
 fi
 
 echo ""
