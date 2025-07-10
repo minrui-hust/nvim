@@ -41,12 +41,12 @@ if [ ! ${force} ] && (nvim -v &>> /dev/null); then
   echo Neovim already installed
 else
   echo Installing neovim...
-  nvim_image=nvim-linux64.tar.gz
+  nvim_image=nvim-linux-x86_64.tar.gz
   nvim_image_path=https://github.com/neovim/neovim/releases/download/stable
   wget -c -O /tmp/${nvim_image} ${nvim_image_path}/${nvim_image} || { echo Neovim install failed!!!;  exit 1; }
   mkdir -p ${HOME}/.local
   tar xzf /tmp/${nvim_image} -C ${HOME}/.local/
-  sudo ln -s ${HOME}/.local/nvim-linux64/bin/nvim /usr/bin/nvim \
+  sudo ln -s ${HOME}/.local/nvim-linux-x86_64/bin/nvim /usr/bin/nvim \
     && echo Neovim installed done!!!
 fi
 

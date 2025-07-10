@@ -12,13 +12,14 @@ source $INITHOME/config/plug/vim-plug.vim
 
 " Put vim plugins between plug#begin and plug#end
 call plug#begin($INITHOME.'/autoload/plugged')
+Plug 'dstein64/vim-startuptime'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-airline/vim-airline'
 Plug 'voldikss/vim-floaterm'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'kevinhwang91/rnvimr'
-Plug 'preservim/nerdtree'
+" Plug 'preservim/nerdtree'
 Plug 'folke/which-key.nvim'
 Plug 'psliwka/vim-smoothie'
 Plug 'mhinz/vim-startify'
@@ -45,6 +46,7 @@ Plug 'morhetz/gruvbox'
 Plug 'preservim/nerdcommenter'
 Plug 'dhruvasagar/vim-zoom'
 " Plug 'jackguo380/vim-lsp-cxx-highlight'
+Plug 'HonkW93/automatic-verilog'
 call plug#end()
 
 
@@ -75,8 +77,8 @@ source $INITHOME/config/plug/easymotion.vim
 " luafile $INITHOME/config/plug/hop.lua
 source $INITHOME/config/plug/nvim-colorizer.vim
 luafile $INITHOME/config/plug/nvim-treesitter.lua
+" source $INITHOME/config/plug/nerdtree.vim
 source $INITHOME/config/plug/nerdcommenter.vim
-source $INITHOME/config/plug/nerdtree.vim
 source $INITHOME/config/plug/vim-zoom.vim
 " luafile $INITHOME/config/plug/nvim-lspconfig.lua
 

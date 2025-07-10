@@ -49,4 +49,3 @@ call which_key#register('<Space>', "g:which_key_map_space")
 nnoremap <silent> <Space> :silent <c-u> :silent WhichKey '<Space>'<CR>
 vnoremap <silent> <Space> :silent <c-u> :silent WhichKeyVisual '<Space>'<CR>
 
-
